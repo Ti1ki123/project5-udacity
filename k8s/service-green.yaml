@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: thangnh35-capstone-app-green # name modified
+  name: chinhpv6-capstone-app-green # name modified
 spec:
   ports:
   - port: 80
@@ -9,6 +9,6 @@ spec:
     protocol: TCP
     name: http
   selector:
-    app: thangnh35-capstone-app
+    app: chinhpv6-capstone-app
     version: ${LABEL_VERSION}
   type: LoadBalancer

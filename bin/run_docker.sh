@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONTAINER_NAME="tireallife1023/capstone-app"
+CONTAINER_NAME="tireallife1023/project5-udacicy"
 VERSION=1.0
 CONTAINER_PORT=80
 HOST_PORT=80
