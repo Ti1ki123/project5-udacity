@@ -10,8 +10,13 @@ This project follows the following procedures:
 3.Specifics:
 
 CircleCI conducts lint checks on multiple files.
+
 Build and upload the Docker image to Docker Hub.
+
 Deploy the initial "green" environment.
+
 Await manual approval.
+
 Deploy the updated "blue" environment.
+
 Remove the previous "blue" environment.
